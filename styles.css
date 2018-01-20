@@ -1,0 +1,78 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url(assets/cosmo-main-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  max-width: 480px;
+}
+
+.app-container {
+  position: relative;
+}
+
+.navigation {
+  height: 36px;
+  max-height: 36px;
+  width: 100%;
+  display: flex;
+  background: #1d1829;
+  justify-content: flex-end;
+}
+
+.navigation .navitagion_button {
+  background: none;
+  border: 0;
+  padding: 5px;
+}
+
+.navigation .navitagion_button i {
+  color: white;
+}
+
+.start-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.start-menu_image {
+  min-height: 320px;
+}
+
+.start-menu_button {
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: 1px;
+  padding: 25px 45px;
+  background: #eb3100;
+  color: white;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.popup {
+  position: absolute;
+  top: 42px;
+  right: 10px;
+  width: calc( 100% - 20px);
+  height: calc(100vh - 62px);
+  background-image: url(assets/cosmo-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+  color: white;
+}
+
+.popup__open {
+  opacity: 1;
+}
+/*# sourceMappingURL=styles.css.map */
