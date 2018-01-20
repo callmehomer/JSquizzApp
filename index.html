@@ -12,28 +12,44 @@
 </head>
 
 <body>
-    <section class="app-container">
+    <main class="app-container">
         <nav class="navigation">
-            <button class="navitagion_button">
+            <button class="navigation__button navigation__back-button">
+                <i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>
+            </button>
+            <button class="navigation__button navigation__info-button">
                 <i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>
             </button>
         </nav>
 
-        <article class="start-menu">
-            <img src="assets/cosmo-logo.svg" class="start-menu_image">
-            <button class="start-menu_button">
+        <section class="start-menu">
+            <img src="assets/cosmo-logo.svg" class="start-menu__image">
+            <button class="start-menu__button">
                 Start quizz
             </button>
-        </article>
+        </section>
+
+        <section class="quiz-screen">
+            <h1 class="quiz-screen__title">question</h1>
+            <img src="" class="quiz-screen__image">
+            <button class="quiz-screen__button quiz-screen__button_triangle">
+                YES
+            </button>
+            <button class="quiz-screen__button quiz-screen__button_triangle">
+                NO
+            </button>
+
+        </section>
+
         <!-- info popup-->
-        <article class="popup">
+        <section class="popup">
             <h1>Hello in Cosmic Quiz</h1>
             <p>Thanks to:</p>
-        </article>
+        </section>
         <!--end of popup-->
-    </section>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="app.js"></script>
+    <script src="app-controller.js"></script>
 </body>
 
 </html>
