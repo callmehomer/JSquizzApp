@@ -32,5 +32,6 @@ menuButton.click(function() {
 menuBackButton.click(function(){
     quizScreen.hide();
     startScreen.show().removeClass("start-menu_hidden");
+    location.reload();
 });
 
