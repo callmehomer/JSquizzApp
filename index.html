@@ -30,13 +30,16 @@
         </section>
 
         <section class="quiz-screen">
+            <div class="quizz-screen__progress-bar">
+               <div class="quizz-screen__progress-bar_progress"></div> 
+            </div>
             <h1 class="quiz-screen__title">question</h1>
             <img src="" class="quiz-screen__image">
-            <button class="quiz-screen__button quiz-screen__button_triangle">
-                YES
+            <button class="quiz-screen__button quiz-screen__button_triangle" id="btn0">
+                <span id="choice0"></span>
             </button>
-            <button class="quiz-screen__button quiz-screen__button_triangle">
-                NO
+            <button class="quiz-screen__button quiz-screen__button_triangle" id="btn1">
+                <span id="choice1"></span>
             </button>
 
         </section>
@@ -50,6 +53,11 @@
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app-controller.js"></script>
+    <script src="quiz-controller.js"></script>
+
+    <script src="question.js"></script>
+    <script src="app.js"></script>
+
 </body>
 
 </html>

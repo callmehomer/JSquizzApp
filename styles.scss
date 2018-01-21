@@ -75,6 +75,20 @@ body{
         }
     }
 }
+
+.quizz-screen__progress-bar{
+    width: 90%;
+    background: #6a668c;
+    height: 10px;
+    border-radius: 10px;
+    margin: 10 auto 0;
+    overflow: hidden;
+    &_progress{
+        width: 0%;
+        background: #c4ae51;
+        height: 100%;
+    }
+}
 .popup{
     position: absolute;
     top: 42px;
